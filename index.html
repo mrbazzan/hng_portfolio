@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <title>Baz</title>
+      <script src="main.js"></script>
+      <link href="index.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+      <link rel="icon" href="favicon.ico">
+  </head>
+
+  <body>
+    <nav id="navbar">
+        <ul>
+            <li id="navbar-home" class="active"><a href="#welcome-section">Home</a></li>
+            <li id="navbar-about"><a href="#about">About</a></li>
+         </ul>
+    </nav>
+
+    <section id="welcome-section" class="textcenter">
+        <h1>Don Bazzan</h1>
+        <br>
+        <img src="Linkedin_passport.jpg" alt="Bazzan's passport" class="imagecenter" data-testid="slackProfilePicture">
+        <small><i>A Software Engineer and Open Source Contributor</i></small>
+    </section>
+
+    <section id="about">
+        <div>
+            <p data-testid="slackDisplayName">Slack Name: baz</p>
+            <p>Current Time in UTC: <span data-testid="currentTimeUTC"></span></p>
+            <p>Current Day of the week: <span data-testid="currentDay"></span> </p>
+            <p data-testid="slackEmail">Slack Email: donbazzan@gmail.com </p>
+
+            <p>Hello! My name is Bazzan, and I'm a Software Developer. I develop
+                back-end web applications and API with Python(Django and Flask).
+                I enjoy reading novels, playing chess and sports(American Football and Basketball).
+                I also really enjoy contributing to open source projects.
+            </p>
+            <p>
+                As someone who has treaded the waters of backend development
+                for some time now, I would like to use the HNG platform as a spring
+                to continue learning frontend development to complement my backend skills.
+            </p>
+            <p>
+                In the next two years, it would be nice to revisit some frontend
+                technologies that I have learnt in the past such as JQuery, CSS & some
+                of its offspring; learn new technology such as React.
+
+                Ultimately, I would love to build web applications that have real purposes
+                i.e application that can be used in the real-world to solve problems and create value.
+
+                Alongside that, another goal is to have gotten better as a developer by
+                reading books such as:
+
+                <ul>
+                    <li>Software Design by Examples in Python</li>
+                    <li>SICP</li>
+                    <li>Architecture of Open Source Application (<a href="https://aosabook.org/en/">AOSA</a>)</li>
+                    <li>Eloquent Javascript</li>
+                    <li>Software Design by Examples in Javascript</li>
+                </ul>
+            </p>
+            <p>
+                Contribute more to open source projects especially projects like Django.
+                It would also be nice to get a job contributing to open source projects.
+            </p>
+            <p>
+                It would also be nice to have utilized tech to solve a problem in Nigeria
+                especially in the power and transportation sector.
+        </div>
+    </section>
+
+    <footer class="footer textcenter">
+        <p>© Created by Baz | 2024</p>
+        <a href = "https://hng.tech/learn" data-testid="hngLink">HNG Learn</a> |
+        <a href="https://keyword.dog" data-testid="keywordLink">Keyword.dog</a> |
+        <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">scapreanyweb.site</a>
+    </footer>
+
+  </body>
+</html>

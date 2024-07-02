@@ -1,0 +1,115 @@
+
+body {
+    margin: 0;
+    font-family: "Segoe UI Light", Calibri;
+    background-color: white;
+    font-size: 100%;
+}
+
+section {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+h1, h2, h3 {
+    color: green;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 35px;
+}
+
+small {
+    text-shadow: 0.2px 0.2px black;
+    color: lightgrey;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+#welcome-section{
+    padding: 20px;
+    margin-top: 30px;
+}
+
+#about{
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.imagecenter {
+    display: block;
+    margin: 0 auto;
+}
+
+section a {
+    text-decoration: none;
+    color: rgba(145, 221, 145, 0.663);
+}
+
+
+section a:hover,
+footer a:hover {
+    color: green;
+}
+
+section#about div p {
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 30px;
+    word-spacing: 0.2px;
+    text-indent: 35px;
+}
+
+section ul {
+    line-height: 30px;
+}
+
+footer a {
+    color: rgba(145, 221, 145, 0.663);
+    text-decoration-line: none;
+}
+
+.footer {
+    background-color: #111111;
+    color: rgba(145, 221, 145, 0.663);
+    padding: 6rem;
+}
+
+.footer p a {
+    color: white;
+    text-decoration: none;
+}
